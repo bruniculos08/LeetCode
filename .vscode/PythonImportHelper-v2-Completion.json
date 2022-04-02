@@ -1,0 +1,11 @@
+[
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "TwoSum",
+        "description": "TwoSum",
+        "peekOfCode": "class Solution:\n    def twoSum(self, nums: List[int], target: int) -> List[int]:\n        # Encontrar em um vetor dois valores dos quais a soma resulta em outro determinado valor\n        size = len(nums)\n        for i in range(size-1):\n            for j in range(i + 1, size):\n                if(nums[i]+nums[j] == target): \n                    return([i, j])",
+        "detail": "TwoSum",
+        "documentation": {}
+    }
+]

@@ -1,5 +1,131 @@
 [
     {
+        "label": "n",
+        "kind": 5,
+        "importPath": "FundaçãoEstudar",
+        "description": "FundaçãoEstudar",
+        "peekOfCode": "n = int(input())\nif(n%2 == 0):\n\tprint(\"Par\")\nelse:\n\tprint(\"Impar\")\n# your code goes here\nvogais = ['a', 'e', 'i', 'o', 'u']\nstring = str(input())\nnewString = \"\"\nfor letter in string:",
+        "detail": "FundaçãoEstudar",
+        "documentation": {}
+    },
+    {
+        "label": "vogais",
+        "kind": 5,
+        "importPath": "FundaçãoEstudar",
+        "description": "FundaçãoEstudar",
+        "peekOfCode": "vogais = ['a', 'e', 'i', 'o', 'u']\nstring = str(input())\nnewString = \"\"\nfor letter in string:\n    if letter in vogais:\n        newString += letter.upper()\n    else:\n        newString += letter\nprint(newString)\n# your code goes here",
+        "detail": "FundaçãoEstudar",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 5,
+        "importPath": "FundaçãoEstudar",
+        "description": "FundaçãoEstudar",
+        "peekOfCode": "string = str(input())\nnewString = \"\"\nfor letter in string:\n    if letter in vogais:\n        newString += letter.upper()\n    else:\n        newString += letter\nprint(newString)\n# your code goes here\nn = int(input())",
+        "detail": "FundaçãoEstudar",
+        "documentation": {}
+    },
+    {
+        "label": "newString",
+        "kind": 5,
+        "importPath": "FundaçãoEstudar",
+        "description": "FundaçãoEstudar",
+        "peekOfCode": "newString = \"\"\nfor letter in string:\n    if letter in vogais:\n        newString += letter.upper()\n    else:\n        newString += letter\nprint(newString)\n# your code goes here\nn = int(input())\nfor i in range(n):",
+        "detail": "FundaçãoEstudar",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "FundaçãoEstudar",
+        "description": "FundaçãoEstudar",
+        "peekOfCode": "n = int(input())\nfor i in range(n):\n\thexNumber = str(input())\n\tresult = 0\n\tfor j in range(len(hexNumber)):\n\t\tif(hexNumber[j] == 'A'):\n\t\t\tresult = result + 10*pow(16, len(hexNumber)-j-1)\n\t\telif(hexNumber[j] == 'B'):\n\t\t\tresult = result + 11*pow(16, len(hexNumber)-j-1)\n\t\telif(hexNumber[j] == 'C'):",
+        "detail": "FundaçãoEstudar",
+        "documentation": {}
+    },
+    {
+        "label": "\thexNumber",
+        "kind": 5,
+        "importPath": "FundaçãoEstudar",
+        "description": "FundaçãoEstudar",
+        "peekOfCode": "\thexNumber = str(input())\n\tresult = 0\n\tfor j in range(len(hexNumber)):\n\t\tif(hexNumber[j] == 'A'):\n\t\t\tresult = result + 10*pow(16, len(hexNumber)-j-1)\n\t\telif(hexNumber[j] == 'B'):\n\t\t\tresult = result + 11*pow(16, len(hexNumber)-j-1)\n\t\telif(hexNumber[j] == 'C'):\n\t\t\tresult = result + 12*pow(16, len(hexNumber)-j-1)\n\t\telif(hexNumber[j] == 'D'):",
+        "detail": "FundaçãoEstudar",
+        "documentation": {}
+    },
+    {
+        "label": "\tresult",
+        "kind": 5,
+        "importPath": "FundaçãoEstudar",
+        "description": "FundaçãoEstudar",
+        "peekOfCode": "\tresult = 0\n\tfor j in range(len(hexNumber)):\n\t\tif(hexNumber[j] == 'A'):\n\t\t\tresult = result + 10*pow(16, len(hexNumber)-j-1)\n\t\telif(hexNumber[j] == 'B'):\n\t\t\tresult = result + 11*pow(16, len(hexNumber)-j-1)\n\t\telif(hexNumber[j] == 'C'):\n\t\t\tresult = result + 12*pow(16, len(hexNumber)-j-1)\n\t\telif(hexNumber[j] == 'D'):\n\t\t\tresult = result + 13*pow(16, len(hexNumber)-j-1)",
+        "detail": "FundaçãoEstudar",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tresult",
+        "kind": 5,
+        "importPath": "FundaçãoEstudar",
+        "description": "FundaçãoEstudar",
+        "peekOfCode": "\t\t\tresult = result + 10*pow(16, len(hexNumber)-j-1)\n\t\telif(hexNumber[j] == 'B'):\n\t\t\tresult = result + 11*pow(16, len(hexNumber)-j-1)\n\t\telif(hexNumber[j] == 'C'):\n\t\t\tresult = result + 12*pow(16, len(hexNumber)-j-1)\n\t\telif(hexNumber[j] == 'D'):\n\t\t\tresult = result + 13*pow(16, len(hexNumber)-j-1)\n\t\telif(hexNumber[j] == 'E'):\n\t\t\tresult = result + 14*pow(16, len(hexNumber)-j-1)\n\t\telif(hexNumber[j] == 'F'):",
+        "detail": "FundaçãoEstudar",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tresult",
+        "kind": 5,
+        "importPath": "FundaçãoEstudar",
+        "description": "FundaçãoEstudar",
+        "peekOfCode": "\t\t\tresult = result + 11*pow(16, len(hexNumber)-j-1)\n\t\telif(hexNumber[j] == 'C'):\n\t\t\tresult = result + 12*pow(16, len(hexNumber)-j-1)\n\t\telif(hexNumber[j] == 'D'):\n\t\t\tresult = result + 13*pow(16, len(hexNumber)-j-1)\n\t\telif(hexNumber[j] == 'E'):\n\t\t\tresult = result + 14*pow(16, len(hexNumber)-j-1)\n\t\telif(hexNumber[j] == 'F'):\n\t\t\tresult = result + 15*pow(16, len(hexNumber)-j-1)\n\t\telse:",
+        "detail": "FundaçãoEstudar",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tresult",
+        "kind": 5,
+        "importPath": "FundaçãoEstudar",
+        "description": "FundaçãoEstudar",
+        "peekOfCode": "\t\t\tresult = result + 12*pow(16, len(hexNumber)-j-1)\n\t\telif(hexNumber[j] == 'D'):\n\t\t\tresult = result + 13*pow(16, len(hexNumber)-j-1)\n\t\telif(hexNumber[j] == 'E'):\n\t\t\tresult = result + 14*pow(16, len(hexNumber)-j-1)\n\t\telif(hexNumber[j] == 'F'):\n\t\t\tresult = result + 15*pow(16, len(hexNumber)-j-1)\n\t\telse:\n\t\t\tresult = result + int(hexNumber[j])*pow(16, len(hexNumber)-j-1)\n\tprint(result)",
+        "detail": "FundaçãoEstudar",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tresult",
+        "kind": 5,
+        "importPath": "FundaçãoEstudar",
+        "description": "FundaçãoEstudar",
+        "peekOfCode": "\t\t\tresult = result + 13*pow(16, len(hexNumber)-j-1)\n\t\telif(hexNumber[j] == 'E'):\n\t\t\tresult = result + 14*pow(16, len(hexNumber)-j-1)\n\t\telif(hexNumber[j] == 'F'):\n\t\t\tresult = result + 15*pow(16, len(hexNumber)-j-1)\n\t\telse:\n\t\t\tresult = result + int(hexNumber[j])*pow(16, len(hexNumber)-j-1)\n\tprint(result)",
+        "detail": "FundaçãoEstudar",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tresult",
+        "kind": 5,
+        "importPath": "FundaçãoEstudar",
+        "description": "FundaçãoEstudar",
+        "peekOfCode": "\t\t\tresult = result + 14*pow(16, len(hexNumber)-j-1)\n\t\telif(hexNumber[j] == 'F'):\n\t\t\tresult = result + 15*pow(16, len(hexNumber)-j-1)\n\t\telse:\n\t\t\tresult = result + int(hexNumber[j])*pow(16, len(hexNumber)-j-1)\n\tprint(result)",
+        "detail": "FundaçãoEstudar",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tresult",
+        "kind": 5,
+        "importPath": "FundaçãoEstudar",
+        "description": "FundaçãoEstudar",
+        "peekOfCode": "\t\t\tresult = result + 15*pow(16, len(hexNumber)-j-1)\n\t\telse:\n\t\t\tresult = result + int(hexNumber[j])*pow(16, len(hexNumber)-j-1)\n\tprint(result)",
+        "detail": "FundaçãoEstudar",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tresult",
+        "kind": 5,
+        "importPath": "FundaçãoEstudar",
+        "description": "FundaçãoEstudar",
+        "peekOfCode": "\t\t\tresult = result + int(hexNumber[j])*pow(16, len(hexNumber)-j-1)\n\tprint(result)",
+        "detail": "FundaçãoEstudar",
+        "documentation": {}
+    },
+    {
         "label": "Solution",
         "kind": 6,
         "importPath": "TwoSum",

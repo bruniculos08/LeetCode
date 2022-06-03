@@ -1,5 +1,14 @@
 [
     {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "AddTwoNumbers",
+        "description": "AddTwoNumbers",
+        "peekOfCode": "class Solution:\n    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:\n        result = ListNode()\n        aux = result\n        while(aux != None and (l1 != None or l2 != None)):\n            if(l1 != None):\n                aux.val += l1.val\n            if(l2 != None):\n                aux.val += l2.val\n            if aux.val >= 10:",
+        "detail": "AddTwoNumbers",
+        "documentation": {}
+    },
+    {
         "label": "n",
         "kind": 5,
         "importPath": "FundaçãoEstudar",
@@ -123,6 +132,33 @@
         "description": "FundaçãoEstudar",
         "peekOfCode": "\t\t\tresult = result + int(hexNumber[j])*pow(16, len(hexNumber)-j-1)\n\tprint(result)",
         "detail": "FundaçãoEstudar",
+        "documentation": {}
+    },
+    {
+        "label": "nums",
+        "kind": 5,
+        "importPath": "Hash",
+        "description": "Hash",
+        "peekOfCode": "nums = [1, 2, 3, 4]\nprevMap = {}\ntarget = 8\nfor i, n in enumerate(nums):\n    prevMap[target - n] = n\nprint(prevMap)\nprint(prevMap[7])",
+        "detail": "Hash",
+        "documentation": {}
+    },
+    {
+        "label": "prevMap",
+        "kind": 5,
+        "importPath": "Hash",
+        "description": "Hash",
+        "peekOfCode": "prevMap = {}\ntarget = 8\nfor i, n in enumerate(nums):\n    prevMap[target - n] = n\nprint(prevMap)\nprint(prevMap[7])",
+        "detail": "Hash",
+        "documentation": {}
+    },
+    {
+        "label": "target",
+        "kind": 5,
+        "importPath": "Hash",
+        "description": "Hash",
+        "peekOfCode": "target = 8\nfor i, n in enumerate(nums):\n    prevMap[target - n] = n\nprint(prevMap)\nprint(prevMap[7])",
+        "detail": "Hash",
         "documentation": {}
     },
     {
